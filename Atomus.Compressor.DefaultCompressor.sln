@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Compressor.DefaultCompressor(dotNet)", "dotNet\Atomus.Compressor.DefaultCompressor(dotNet).csproj", "{3F666CA6-4D7C-4401-A297-D791DB2CC93C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CDA1B7EA-9293-47DC-8D96-C6A661016D53}"
+	ProjectSection(SolutionItems) = preProject
+		src\DefaultCompressor.cs = src\DefaultCompressor.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Compressor.DefaultCompressor(dotNetCore)", "dotNetCore\Atomus.Compressor.DefaultCompressor(dotNetCore).csproj", "{0C0D80E1-AD40-4084-A915-6F3C8807E318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Compressor.DefaultCompressor(dotNetStandard)", "dotNetStandard\Atomus.Compressor.DefaultCompressor(dotNetStandard).csproj", "{588CF872-D851-426F-AB59-F95E58CEEEC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F666CA6-4D7C-4401-A297-D791DB2CC93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F666CA6-4D7C-4401-A297-D791DB2CC93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F666CA6-4D7C-4401-A297-D791DB2CC93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F666CA6-4D7C-4401-A297-D791DB2CC93C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0D80E1-AD40-4084-A915-6F3C8807E318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0D80E1-AD40-4084-A915-6F3C8807E318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0D80E1-AD40-4084-A915-6F3C8807E318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0D80E1-AD40-4084-A915-6F3C8807E318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{588CF872-D851-426F-AB59-F95E58CEEEC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588CF872-D851-426F-AB59-F95E58CEEEC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588CF872-D851-426F-AB59-F95E58CEEEC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588CF872-D851-426F-AB59-F95E58CEEEC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {52E50808-9F10-4305-921A-A05FB10DFBF7}
+	EndGlobalSection
+EndGlobal

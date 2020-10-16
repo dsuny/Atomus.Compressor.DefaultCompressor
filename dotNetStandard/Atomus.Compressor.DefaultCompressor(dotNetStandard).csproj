@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Atomus</RootNamespace>
+    <AssemblyName>Atomus.Compressor.DefaultCompressor</AssemblyName>
+    <Authors>DSUN</Authors>
+    <Company>Atomus</Company>
+    <Product>Atomus Framework in .Net Standard 2.0</Product>
+    <Description>Atomus Framework in .Net Standard 2.0</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/dsuny/Atomus.Compressor.DefaultCompressor</PackageProjectUrl>
+    <PackageIcon>atomus.png</PackageIcon>
+    <RepositoryUrl>https://github.com/dsuny/Atomus.Compressor.DefaultCompressor</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Atomus Atomus.Core Compressor DefaultCompressor AtomusFramework</PackageTags>
+    <PackageReleaseNotes>release 1.0.0</PackageReleaseNotes>
+    <Copyright>Copyright 2020. DSUN all rights reserved.</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\src\DefaultCompressor.cs" Link="DefaultCompressor.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\image\atomus.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Atomus.Core.dotNetStandard" Version="1.0.2.1" />
+  </ItemGroup>
+
+</Project>
