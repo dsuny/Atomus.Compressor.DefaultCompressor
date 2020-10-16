@@ -46,8 +46,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Atomus.Core.dll">
-      <Version>1.0.28</Version>
+    <PackageReference Include="Atomus.Core.dotNet">
+      <Version>1.0.2</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
